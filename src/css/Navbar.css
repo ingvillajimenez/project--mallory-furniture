@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.Navbar__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.Navbar__link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    line-height: 45px;
+    text-decoration: none;
+}
+
+.Navbar__cart {
+    background-color: #FFC107;
+    border: none;
+    padding: 0 17px;
+}

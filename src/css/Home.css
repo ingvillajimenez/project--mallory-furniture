@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.Title {
+    height: 400px;
+    text-align: center;
+    background: url("../images/landing-splash-bg.png");
+    background-size: cover;
+    color: white;
+    position: relative
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.Title__center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+
+
+.Title h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.Title h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Products-section {
+    margin: 15px;
+    position: relative;
+}
+
+.Products-section h2 {
+    font-family: 'Playfair Display', serif; 
+    color: #222222;  
+}
+
+.Products-section h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #999999; 
+}
+
+.Products {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Product {
+    width: calc(100% / 3);
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .08);
+    margin: 10px 0;
+}
+
+.Product__name {
+    display: block;
+    font-size: 13px;
+    color: #222222;
+}
+  
+.Product__price {
+    display: block;
+    font-size: 13px;
+    color: #999999;
+}
+
+.Product__cover {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #F44336;
+}
+
+.Product img {
+    width: 100%;
+    display: block;
+}
+
+.All-products {
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #F44336;
+    padding: 10px 40px;
+}
+
+.Products-section a {
+    text-decoration: none;
+    color: #F44336;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Categories-section {
+    margin: 60px 15px 10px 15px;
+}
+
+.Categories-section h2 {
+    font-family: 'Playfair Display', serif; 
+    color: #222222;  
+}
+
+.Categories-section h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #999999; 
+}
+
+.Categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Category {
+    width: 20%;
+    margin: 15px 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #2196F3;
+}
+
+.Category a{
+    text-decoration: none;
+    color: #2196F3;
+    font-size: 14px;
+    font-weight: bold;
+}
